@@ -12,6 +12,11 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
 li {
     list-style: none;
 }
@@ -137,11 +142,6 @@ footer p {
 
 /* HERO */
 
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-}
-
 .hero {
   background-image: url('../images/hero-bg.jpg');
   background-size: cover;
@@ -202,7 +202,6 @@ body {
 
 .about {
   background-color: #f7f7f7;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 50px 50px;
 }
@@ -214,56 +213,6 @@ body {
 
 .about p {
   text-align: justify;
-}
-
-/* CONTACT */
-
-.contact {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 50px 0;
-}
-
-.contact h2 {
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-  margin: 0 auto;
-}
-
-label {
-  margin-top: 10px;
-  font-size: 1.2em;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  padding: 10px;
-  margin: 5px 0 15px;
-  border: none;
-  border-radius: 3px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  font-size: 1.2em;
-}
-
-button[type="submit"] {
-  background-color: #0072ff;
-  color: white;
-  padding: 10px;
-  border: none;
-  border-radius: 3px;
-  font-size: 1.2em;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-button[type="submit"]:hover {
-  background-color: #00c6ff;
 }
 
 /* SOCIAL MEDIA */
