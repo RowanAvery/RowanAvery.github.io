@@ -180,7 +180,7 @@ footer p {
 .portfolio {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 50px 50px;
+  padding: 50px 20px;
 }
 
 .portfolio h2 {
@@ -203,6 +203,7 @@ footer p {
 
 .gallery img:hover {
   transform: scale(2);
+  object-fit: contain;
 }
 
 /* ABOUT */
@@ -210,7 +211,7 @@ footer p {
 .about {
   background-color: #f7f7f7;
   margin: 0 auto;
-  padding: 50px 50px;
+  padding: 50px 20px;
 }
 
 .about h2 {
