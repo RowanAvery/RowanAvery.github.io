@@ -141,6 +141,21 @@ footer p {
 
 /* HERO */
 
+.hero-img {
+  background-image: url('../images/hero-header.png');
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-repeat: no-repeat;
+}
+
 .hero {
   background-image: url('../images/hero-bg.png');
   opacity: 0.90;
