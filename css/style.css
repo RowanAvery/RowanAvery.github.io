@@ -22,6 +22,10 @@ a {
     color: blue;
 }
 
+a:hover {
+    color: #0072ff;
+}
+
 /* HEADER / NAV BAR */
 
 .header {
@@ -83,6 +87,10 @@ a {
   text-decoration: none;
   color: white;
   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.nav-logo:hover {
+  color: white;
 }
 
 @media only screen and (max-width: 768px) {
