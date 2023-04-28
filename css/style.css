@@ -221,8 +221,11 @@ footer p {
 }
 
 .about p {
+  display: block;
+  margin: auto;
   text-align: justify;
   margin-bottom: 30px;
+  max-width: 1200px;
 }
 
 /* SOCIAL MEDIA */
